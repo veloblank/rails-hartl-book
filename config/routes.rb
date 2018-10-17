@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
 
-  root "application#hello"
-  get "/goodbye", :to => "application#goodbye"
+  root "application#goodbye"
+
 end
